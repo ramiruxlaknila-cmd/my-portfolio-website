@@ -325,11 +325,20 @@ body { color-scheme: dark; }
   text-decoration: none;
 }
 
-.logo img {
+.logo-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex: 0 0 30px;
+}
+
+.header-profile {
   width: 42px;
   height: 42px;
   border-radius: 50%;
   object-fit: cover;
+  flex: 0 0 42px;
 }
 
 .logo span {
